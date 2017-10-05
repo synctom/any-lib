@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Transpiled files
+**/*.js
+**/*.js.map
+
+# Distribution folder
+dist/*.*
+
+# Include specs
+!/spec/*.spec.js

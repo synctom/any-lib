@@ -1,0 +1,22 @@
+{
+  "name": "any-lib",
+  "repository": "",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "jasmine",
+    "postinstall": "npm run lint && tsc && jasmine",
+    "lint": "tslint -t codeframe 'lib/**/*.ts?(x)'"
+  },
+  "author": "syntom",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "typescript": "^2.2.1",
+    "tslint": "~5.3.2"
+  }
+}
